@@ -42,8 +42,8 @@ fluidPage(theme = shinytheme("united"),
               h4("Trends"),
               plotOutput("trends"),
               
-              h4("Tweets"),
-              helpText("Retweets are filtered out from the table below."),
+            #  h4("Tweets"),
+             # helpText("Retweets are filtered out from the table below."),
               tabsetPanel(
                 tabPanel(
                          dataTableOutput("Table"))
